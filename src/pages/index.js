@@ -41,7 +41,7 @@ export default function Home() {
                 border-2 border-solid border-transparent hover:border-dark hover:text-dark
                 dark:text-dark dark:bg-light dark:hover:bg-dark dark:hover:text-light
                 md:p-2 md:px-4 md:text-base dark:hover:border-white'
-                >Resume <LinkArrow className={"w-6 ml-1"}/>
+                >Resume <LinkArrow className={"!w-6 ml-1"}/>
                 </Link>
                 <Link href="mailto:ojogbomichael@gmail.com" target={"_blank"}
                 className='ml-4 text-lg font-medium capitalize text-dark dark:text-light underline md:text-base'
