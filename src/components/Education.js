@@ -47,19 +47,22 @@ const Education = () => {
             <Details 
                 type="Bachelor Of Science In Mechanical Engineering" time="2015-2019"
                 place="University of Ibadan (UI)"
-                info="Relevant courses included Mechanical Systems and Design, Computer Systems Engineering, and Artificial 
-Intelligence." 
+                info="Relevant courses included Mechanical Systems and Design, Computer Engineering, and Statistics." 
             /> 
             <Details 
-                type="Boot Camp" time="2020-2022"
+                type="The Complete Web Development Bootcamp" time="2021"
+                place="Udemy"
+                info="Completed coursework in  Fullstack Development." 
+            /> 
+            <Details 
+                type="Data Science" time="2021"
+                place="Datacamp"
+                info="Completed coursework in advanced topics such as  Data Science and Machine Learning Engineering." 
+            /> 
+             <Details 
+                type="Cloud Engineering" time="2022"
                 place="Altschool"
-                info="Completed an altschool program on frontend development." 
-            /> 
-            <Details 
-                type="Online Coursework" time="2016-2020"
-                place="Udemy And Datacamp"
-                info="Completed coursework in advanced topics such as Fullstack Development, Data Science, and Machine 
-Learning Engineering." 
+                info="Completed coursework in Cloud Engineering." 
             /> 
                      
         </ul>

@@ -48,30 +48,28 @@ const Experience = () => {
 
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
             <Details 
-                position="Software Engineer" company="Pharmsecurve"
+                position="Software Engineer" company="Wavecrib"
                 companyLink="www.google.com"
                 time="2023-Present" address="Lagos, NG"
-                work="Worked on a team responsible for developing web applications for freelance companies, including designing various UI interfaces for data analysis and visualization."
+                work="Work on a team responsible for developing applications for companies, including designing various UI interfaces for data analysis and visualization."
             /> 
             <Details 
-                position="Software Developer" company="BNI"
+                position="Web Developer" company="BNI"
                 companyLink="www.bni.ng"
                 time="2021-2022" address="Lagos, NG."
-                work="Worked on a team responsible for developing a new web app feature that allowed users to create quotes and get instant responses, including designing and implementing a new user interface and developing 
-the backend infrastructure to support the feature."
+                work="Worked on a team responsible for developing a new web app feature that allowed users to get insurance quotes, including designing and implementing a new user interface and developing the backend infrastructure to support the feature."
             /> 
             <Details 
                 position="Designer" company="Centurion"
                 companyLink="www.google.com"
                 time="2020-2021" address="Sandton, SA."
-                work="Worked on a team responsible for creating visual designs for social media and company website, including implementing new features such 
-as product recommendations and user reviews, and optimizing the app's performance and reliability."
+                work="Worked on a team responsible for creating visual designs for social media and company website, including implementing new color and font blueprint to optimize the app's performance and reliability."
             /> 
             <Details 
                 position="Software Developer Intern" company="Mouve"
                 companyLink="www.themouve.com"
                 time="Fall 2018" address="Chicago, IL."
-                work="Assisted in building The Mouve application, held sessions with senior developers to help understand basic developer concepts"
+                work="Assisted in building The Mouve application, held sessions with senior developers and built minor components for the application."
             />           
         </ul>
       </div>
