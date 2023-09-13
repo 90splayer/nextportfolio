@@ -15,7 +15,7 @@ import TransitionEffect from '@/components/TransitionEffect'
 
 const FramerImage = motion(Image)
 
-const FeaturedProject = ({type, title, summary, img, link, github}) => {
+export const FeaturedProject = ({type, title, summary, img, link, github}) => {
     return(
         <article className='w-full flex items-center justify-between rounded-3xl 
         border border-solid border-dark bg-light shadow-2xl p-12 relative rounded-br-2xl dark:bg-dark

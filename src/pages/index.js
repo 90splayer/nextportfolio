@@ -2,12 +2,15 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
 import profilePic from "../../public/images/profile/developer-pic-1.png";
+import featured from "../../public/images/projects/rentspace.png";
 import AnimatedText from '@/components/AnimatedText';
 import Link from 'next/link';
 import { LinkArrow } from '@/components/Icons';
 import HireMe from '@/components/HireMe';
 import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg';
 import TransitionEffect from '@/components/TransitionEffect';
+import { FeaturedProject } from './projects';
+
 
 export default function Home() {
   return (
@@ -17,7 +20,7 @@ export default function Home() {
         <meta name="portfolio" content="Michael Ojogbo" /> 
       </Head>
       <TransitionEffect/>
-      <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
+      <main className="flex  items-center text-dark w-full min-h-screen dark:text-light">
         <Layout className='!pt-0 md:!pt-16 sm:!pt-4'>
           <div className='flex items-center justify-between w-full lg:flex-col'>
             <div className='w-1/2'>
@@ -49,11 +52,23 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className='mt-32'>
+                    <FeaturedProject
+                        title="Rent Space"
+                        summary="A feature-rich Creative hospitality App using Nextjs, Tailwind CSS, Google Auth, App Router, Leaflet Api and Cloudinary. 
+It shows detail regarding almost all the creative spaces. You can easily get a space to create content or relax."
+                        link="/projects/rentspace"
+                        type="Featured Project"
+                        img={featured}
+                        github="https://github.com/90splayer/rent-space"
+                    />
+                  </div>
         </Layout>
         <HireMe />
         <div className='absolute right-8 bottom-8 inline-block w-24 md:hidden'>
           <Image src={lightBulb} alt='XC' className='w-full h-auto' />
         </div>
+       
       </main>
     </>
   )
