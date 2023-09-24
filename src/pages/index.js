@@ -3,6 +3,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import profilePic from "../../public/images/profile/developer-pic-1.png";
 import featured from "../../public/images/projects/rentspace.png";
+import tiddix from "../../public/images/projects/tiddix.png";
+import medicare from "../../public/images/projects/medicare.png";
+import saas from "../../public/images/projects/Saas.png";
+import card from "../../public/images/projects/card.png";
+import card2 from "../../public/images/projects/card2.png";
 import AnimatedText from '@/components/AnimatedText';
 import Link from 'next/link';
 import { LinkArrow } from '@/components/Icons';
@@ -52,17 +57,49 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='mt-32'>
+          <div className='mt-32 gap-16 flex flex-col'>
                     <FeaturedProject
                         title="Rent Space"
-                        summary="A feature-rich Creative hospitality App using Nextjs, Tailwind CSS, Google Auth, App Router, Leaflet Api and Cloudinary. 
-It shows detail regarding almost all the creative spaces. You can easily get a space to create content or relax."
+                        summary="A Full Stack hospitality App that helps creatives locate their desired spaces using Nextjs, Tailwind CSS, Google Auth, App Router, Leaflet Api and Cloudinary. 
+                        It shows detail regarding all the creative spaces so you can easily get a space to create content or relax."
                         link="/projects/rentspace"
                         type="Featured Project"
                         img={featured}
                         github="https://github.com/90splayer/rent-space"
                     />
-                  </div>
+                    <FeaturedProject
+                        title="Medicare"
+                        summary="A full MERN Stack Doctor Appointment Booking Website Using ReactJs, Node Js, MongoDB, and Stripe."
+                        link="/projects/medicare"
+                        type="Featured Project"
+                        img={medicare}
+                        github="https://github.com/90splayer/medicare-frontend"
+                    />
+                    <FeaturedProject
+                        title="Tiddix"
+                        summary="A Full Stack Web Application that helps creatives realise their dreams by connecting them with supporters, investors and funding throuh a metric-based data system."
+                        link="/projects/tiddix"
+                        type="Featured Project"
+                        img={tiddix}
+                        github="https://github.com/90splayer/rent-space"
+                    />
+                    <FeaturedProject
+                        title="NBA"
+                        summary="Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, MySQL."
+                        link="/projects/nba"
+                        type="Featured Project"
+                        img={saas}
+                        github="https://github.com/90splayer/nba-admin"
+                    />
+                    <FeaturedProject
+                        title="Split Vignette"
+                        summary="A split image animation using clip-path css value, animated with framer motion and Nextjs."
+                        link="/projects/photion"
+                        type="Featured Project"
+                        img={card2}
+                        github="https://github.com/90splayer/photion"
+                    />
+           </div>
         </Layout>
         <HireMe />
         <div className='absolute right-8 bottom-8 inline-block w-24 md:hidden'>

@@ -6,6 +6,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import project1 from '../../../public/images/projects/rentspace.png'
+import medicare from '../../../public/images/projects/medicare.png'
+import tiddix from '../../../public/images/projects/tiddix.png'
+import card from '../../../public/images/projects/card.png'
 import project2 from '../../../public/images/projects/quoteworld.png'
 import project3 from '../../../public/images/projects/Saas.png'
 import project4 from '../../../public/images/projects/remote.png'
@@ -121,30 +124,59 @@ It shows detail regarding almost all the creative spaces. You can easily get a s
                   </div>
                   <div className='col-span-6 sm:col-span-12'>
                   <Project
-                        title="Nothing By Accident"
-                        link="/"
+                        title="Medicare"
+                        link="/projects/medicare"
                         type="Featured Project"
-                        img={project2}
-                        github="/"
+                        img={medicare}
+                        github="https://github.com/90splayer/medicare-frontend"
                     />
                   </div>
                   <div className='col-span-6 sm:col-span-12'>
                   <Project
                         title="Saas"
-                        link="/"
+                        link="/projects/nba"
                         type="Featured Project"
                         img={project3}
-                        github="/"
+                        github="https://github.com/90splayer/nba-admin"
+                    />
+                  </div>
+
+                  <div className='col-span-12'>
+                    <FeaturedProject
+                        title="Tiddix"
+                        summary="A Full Stack Web Application that helps creatives realise their dreams by connecting them with supporters, investors and funding throuh a metric-based data system."
+                        link="/projects/tiddix"
+                        type="Featured Project"
+                        img={tiddix}
+                        github="https://github.com/90splayer/rent-space"
                     />
                   </div>
                  
+                  <div className='col-span-6 sm:col-span-12'>
+                  <Project
+                        title="Split vignette"
+                        link="/projects/photion"
+                        type="Featured Project"
+                        img={card}
+                        github="https://github.com/90splayer/photion"
+                    />
+                  </div>
+                  <div className='col-span-6 sm:col-span-12'>
+                  <Project
+                        title="Quoteworld"
+                        link="/"
+                        type="Featured Project"
+                        img={project2}
+                        github="https://github.com/90splayer/quoteworld"
+                    />
+                  </div>
                   <div className='col-span-6 sm:col-span-12'>
                   <Project
                         title="Remote"
                         link="/"
                         type="Featured Project"
                         img={project4}
-                        github="/"
+                        github="https://github.com/90splayer/snap-frontendmentor"
                     />
                   </div>
                   <div className='col-span-6 sm:col-span-12'>
@@ -153,7 +185,7 @@ It shows detail regarding almost all the creative spaces. You can easily get a s
                         link="/"
                         type="Featured Project"
                         img={project5}
-                        github="/"
+                        github="https://github.com/90splayer/Ecommerce"
                     />
                   </div>
                 </div>

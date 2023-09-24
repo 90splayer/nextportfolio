@@ -52,7 +52,7 @@ const rentspace = () => {
        className='flex flex-col col-span-6 space-y-4 items-start lg:text-sm sm:text-xs'>
         <p className=''>Rent Space is a creative and lifestyle hospitality company with spaces serving and satisfying customers in the creative niche.</p>
         <p className=''>Rent Space wanted to build a digital home for her brand. In the course of 4 weeks, I succeeded in bringing this dream to life.</p>
-        <p className=' underline underline-offset-4 decoration-primary'>Visit the site</p>
+        <Link href="https://rent-space.vercel.app/"><p className=' underline underline-offset-4 decoration-primary'>Visit the site</p></Link>
        </motion.div>
        <div className="col-span-12 my-32 md:my-16">
               <Image
