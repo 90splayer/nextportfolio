@@ -3,8 +3,8 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Link from 'next/link'
 import React, { useRef } from 'react'
-import article1 from '../../public/images/articles/pagination component in reactjs.jpg'
-import article2 from '../../public/images/articles/create loading screen in react js.jpg'
+import article1 from '../../public/images/articles/localhost.jpg'
+import article2 from '../../public/images/articles/virtualcare.png'
 import article3 from '../../public/images/articles/create modal component in react using react portals.png'
 import article4 from '../../public/images/articles/form validation in reactjs using custom react hook.png'
 import article5 from '../../public/images/articles/What is higher order component in React.jpg'
@@ -101,20 +101,20 @@ const articles = () => {
                 <AnimatedText text="Words Can Change The World!" className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8'/>
                 <ul className='grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16'>
                     <FeaturedArticle
-                    title="Build A Custom Pagination Component In Reactjs From Scratch"
+                    title="How to Preview localhost Website on Mobile Phone"
                     img={article1}
                     time="9 min read"
-                    summary="Learn how to build a custom pagination component in ReactJS from scratch. 
-                    Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
-                    link="/"
+                    summary="Are you looking to preview your website on your mobile (or tablet) while developing it on your computer? 
+                    Or vice-versa? Maybe you want to get a “real feel” of how the website works and looks directly on the device."
+                    link="https://medium.com/@ojogbomichael/how-to-preview-localhost-website-on-mobile-phone-7c260815374"
                     />
                     <FeaturedArticle
-                    title="Build A Custom Pagination Component In Reactjs From Scratch"
+                    title="Proud to Build My First Full-Stack Web App - Virtual Care 🏥"
                     img={article2}
                     time="9 min read"
-                    summary="Learn how to build a custom pagination component in ReactJS from scratch. 
-                    Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
-                    link="/"
+                    summary="Developing a full-stack web-application for a hospital which allows you create a 
+                    profile as a patient, search for specific doctors and get virtual treatment anytime. "
+                    link="https://www.linkedin.com/feed/update/urn:li:activity:7111983039571767296/"
                     />
                 </ul>
                 <h2 className='font-bold text-4xl w-full text-center my-16 mt-32'>All Articles</h2>
