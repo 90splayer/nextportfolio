@@ -5,10 +5,11 @@ import Link from 'next/link'
 import React, { useRef } from 'react'
 import article1 from '../../public/images/articles/localhost.jpg'
 import article2 from '../../public/images/articles/virtualcare.png'
-import article3 from '../../public/images/articles/create modal component in react using react portals.png'
-import article4 from '../../public/images/articles/form validation in reactjs using custom react hook.png'
+import article3 from '../../public/images/articles/react.jpg'
+import article4 from '../../public/images/articles/mongo.png'
 import article5 from '../../public/images/articles/What is higher order component in React.jpg'
 import article6 from '../../public/images/articles/What is Redux with easy explanation.png'
+import authimg from '../../public/images/articles/Authentication.png'
 import Image from 'next/image'
 import { motion, useMotionValue } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
@@ -101,12 +102,11 @@ const articles = () => {
                 <AnimatedText text="Words Can Change The World!" className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8'/>
                 <ul className='grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16'>
                     <FeaturedArticle
-                    title="How to Preview localhost Website on Mobile Phone"
-                    img={article1}
-                    time="9 min read"
-                    summary="Are you looking to preview your website on your mobile (or tablet) while developing it on your computer? 
-                    Or vice-versa? Maybe you want to get a “real feel” of how the website works and looks directly on the device."
-                    link="https://medium.com/@ojogbomichael/how-to-preview-localhost-website-on-mobile-phone-7c260815374"
+                    title="Authentication with Next.js 13 Using Next-Auth"
+                    img={authimg}
+                    time="7 min read"
+                    summary="Authentication /ɔːˌθɛntɪˈkeɪʃn/ — The process or action of verifying the identity of a user or process."
+                    link="https://medium.com/stackademic/authentication-with-next13-using-next-auth-cad70b40d8ec"
                     />
                     <FeaturedArticle
                     title="Proud to Build My First Full-Stack Web App - Virtual Care 🏥"
@@ -120,41 +120,30 @@ const articles = () => {
                 <h2 className='font-bold text-4xl w-full text-center my-16 mt-32'>All Articles</h2>
                 <ul>
                     <Article 
-                        title="Silky Smooth Scrolling In Reactjs: A Step-By-Step Guide For React Developers"
+                        title="What is the difference between React & React Native?"
                         img={article3}
-                        date="September 8, 2023"
-                        link="/"
+                        date="October 10, 2023"
+                        link="https://medium.com/@ojogbomichael/what-is-the-difference-between-react-react-native-0b5aa16437c1"
                     />
                     <Article 
-                        title="Creating An Efficient Modal Component In React Using Hooks And Portals"
+                        title="DATABASE RELATIONS"
                         img={article4}
-                        date="September 8, 2023"
-                        link="/"
+                        date="October 3, 2023"
+                        link="https://medium.com/@ojogbomichael/database-relations-6420f407518a"
                     />
                     <Article 
-                        title="Build A Fabulous Todo List App With React, Redux And Framer-Motion"
-                        img={article5}
-                        date="September 8, 2023"
-                        link="/"
-                    />
-                    <Article 
-                        title="Redux Simplified: A Beginner's Guide For Web Developers"
-                        img={article6}
-                        date="September 8, 2023"
-                        link="/"
-                    />
-                    <Article 
-                        title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+                        title="How to Preview localhost Website on Mobile Phone"
                         img={article1}
-                        date="September 8, 2023"
-                        link="/"
+                        date="September 20, 2023"
+                        link="https://medium.com/@ojogbomichael/how-to-preview-localhost-website-on-mobile-phone-7c260815374"
                     />
                     <Article 
-                        title="What Is Higher Order Component (Hoc) In React?"
-                        img={article2}
-                        date="September 8, 2023"
-                        link="/"
+                        title="ALL THE HTML TAGS YOU NEED TO KNOW (grouped by their roles and use)"
+                        img={article6}
+                        date="October 10, 2023"
+                        link="https://medium.com/@ojogbomichael/all-the-html-tags-you-need-to-know-grouped-by-their-roles-and-use-ebbd4888505d"
                     />
+                    
                 </ul>
             </Layout>
         </main>

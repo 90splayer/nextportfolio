@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import Logo from './Logo'
 import { useRouter } from 'next/router'
-import  { TwitterIcon, DribbbleIcon, GithubIcon, LinkedInIcon, SunIcon, MoonIcon, BehanceIcon } from './Icons';
+import  { TwitterIcon, MediumIcon, GithubIcon, LinkedInIcon, SunIcon, MoonIcon, BehanceIcon } from './Icons';
 import {motion} from "framer-motion";
 import useThemeSwitcher from './hooks/useThemeSwitcher';
 
@@ -96,11 +96,11 @@ const NavBar = () => {
         className='w-6 mx-3 bg-light rounded-full'>
             <BehanceIcon/>
         </motion.a>
-        <motion.a href="https://dribbble.com/MichaelOjogbo" target={"_blank"}
+        <motion.a href="https://medium.com/@ojogbomichael" target={"_blank"}
         whileHover={{y:-2}}
         whileTap={{scale:0.9}}
         className='w-6 ml-3'>
-            <DribbbleIcon/>
+            <MediumIcon/>
         </motion.a>
 
         <button
