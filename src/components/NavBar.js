@@ -158,11 +158,11 @@ const NavBar = () => {
         className='w-6 mx-3 sm:mx-1 bg-light rounded-full'>
             <BehanceIcon/>
         </motion.a>
-        <motion.a href="https://dribbble.com/MichaelOjogbo" target={"_blank"}
+        <motion.a href="https://medium.com/@ojogbomichael" target={"_blank"}
         whileHover={{y:-2}}
         whileTap={{scale:0.9}}
         className='w-6 ml-3 sm:mx-1'>
-            <DribbbleIcon/>
+            <MediumIcon/>
         </motion.a>
 
         <button
