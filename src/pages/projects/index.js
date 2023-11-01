@@ -11,8 +11,10 @@ import tiddix from '../../../public/images/projects/tiddix.png'
 import card from '../../../public/images/projects/card.png'
 import project2 from '../../../public/images/projects/quoteworld.png'
 import project3 from '../../../public/images/projects/Saas.png'
-import project4 from '../../../public/images/projects/remote.png'
+import project4 from '../../../public/images/projects/wavecrib.jpeg'
 import project5 from '../../../public/images/projects/sneakers.png'
+import project6 from '../../../public/images/projects/krypt.jpeg'
+import project7 from '../../../public/images/projects/Akala.jpeg'
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -133,10 +135,10 @@ It shows detail regarding almost all the creative spaces. You can easily get a s
                   </div>
                   <div className='col-span-6 sm:col-span-12'>
                   <Project
-                        title="Saas"
-                        link="/projects/nba"
+                        title="Wavecrib"
+                        link="/projects"
                         type="Featured Project"
-                        img={project3}
+                        img={project4}
                         github="https://github.com/90splayer/nba-admin"
                     />
                   </div>
@@ -172,11 +174,11 @@ It shows detail regarding almost all the creative spaces. You can easily get a s
                   </div>
                   <div className='col-span-6 sm:col-span-12'>
                   <Project
-                        title="Remote"
-                        link="/"
+                        title="Saas"
+                        link="/projects/nba"
                         type="Featured Project"
-                        img={project4}
-                        github="https://github.com/90splayer/snap-frontendmentor"
+                        img={project3}
+                        github="https://github.com/90splayer/nba-admin"
                     />
                   </div>
                   <div className='col-span-6 sm:col-span-12'>
@@ -186,6 +188,24 @@ It shows detail regarding almost all the creative spaces. You can easily get a s
                         type="Featured Project"
                         img={project5}
                         github="https://github.com/90splayer/Ecommerce"
+                    />
+                  </div>
+                  <div className='col-span-6 sm:col-span-12'>
+                  <Project
+                        title="Krypt"
+                        link="/projects"
+                        type="Featured Project"
+                        img={project6}
+                        github="https://github.com/90splayer/krypt"
+                    />
+                  </div>
+                  <div className='col-span-6 sm:col-span-12'>
+                  <Project
+                        title="Akala"
+                        link="/"
+                        type="Featured Project"
+                        img={project7}
+                        github="https://github.com/90splayer/akala"
                     />
                   </div>
                 </div>
