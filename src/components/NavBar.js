@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import Logo from './Logo'
 import { useRouter } from 'next/router'
-import  { TwitterIcon, MediumIcon, GithubIcon, LinkedInIcon, SunIcon, MoonIcon, BehanceIcon } from './Icons';
+import  { TwitterIcon, MediumIcon, GithubIcon, LinkedInIcon, SunIcon, MoonIcon, BehanceIcon, XIcon } from './Icons';
 import {motion} from "framer-motion";
 import useThemeSwitcher from './hooks/useThemeSwitcher';
 
@@ -71,13 +71,6 @@ const NavBar = () => {
      </nav>
      
      <nav className='flex items-center justify-center flex-wrap'>
-        <motion.a href="https://twitter.com/Kampxc" target={"_blank"}
-        whileHover={{y:-2}}
-        whileTap={{scale:0.9}}
-        className='w-6 mr-3'
-        >
-            <TwitterIcon/>
-        </motion.a>
         <motion.a href="https://github.com/90splayer" target={"_blank"}
         whileHover={{y:-2}}
         whileTap={{scale:0.9}}
@@ -89,6 +82,13 @@ const NavBar = () => {
         whileTap={{scale:0.9}}
         className='w-6 mx-3'>
             <LinkedInIcon/>
+        </motion.a>
+        <motion.a href="https://twitter.com/Kampxc" target={"_blank"}
+        whileHover={{y:-2}}
+        whileTap={{scale:0.9}}
+        className='w-6 mx-3'
+        >
+            <XIcon/>
         </motion.a>
         <motion.a href="https://www.behance.net/michaelojogbo" target={"_blank"}
         whileHover={{y:-2}}
