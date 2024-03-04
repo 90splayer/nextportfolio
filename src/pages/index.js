@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import profilePic from "../../public/images/profile/developer-pic-1.png";
 import featured from "../../public/images/projects/rentspace.png";
-import tiddix from "../../public/images/projects/tiddix.png";
+import expo from "../../public/images/projects/expo.png";
 import medicare from "../../public/images/projects/medicare.png";
 import saas from "../../public/images/projects/Saas.png";
 import card from "../../public/images/projects/card.png";
@@ -39,8 +39,8 @@ export default function Home() {
               <AnimatedText text="Turning Vision Into Reality With Code And Design." className='!text-6xl !text-left 
               xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl '/>
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-               As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
-               Explore my latest projects and articles, showcasing my expertise in Next.js and Artificial Intelligence.
+               As a skilled Software Engineer and Designer, I am dedicated to turning ideas into innovative applications. 
+               Explore my latest projects and articles, showcasing my expertise in Next.js, Expo, Web3 and AI.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link href="https://read.cv/enwerim" target={"_blank"}
@@ -76,12 +76,12 @@ export default function Home() {
                         github="https://github.com/90splayer/medicare-frontend"
                     />
                     <FeaturedProject
-                        title="Tiddix"
-                        summary="A Full Stack Web Application that helps creatives realise their dreams by connecting them with supporters, investors and funding throuh a metric-based data system."
-                        link="/projects/tiddix"
+                        title="Techonnect"
+                        summary="An IOS and Android Mobile Application that compiles Tech jobs from around the world using Expo and Rapid Api then serves it to it users based on parameters."
+                        link="/projects/techonnect"
                         type="Featured Project"
-                        img={tiddix}
-                        github="https://github.com/90splayer/rent-space"
+                        img={expo}
+                        github="https://github.com/90splayer/techonnect"
                     />
                     <FeaturedProject
                         title="NBA"

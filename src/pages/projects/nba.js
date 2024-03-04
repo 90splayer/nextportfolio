@@ -13,12 +13,12 @@ import AnimatedText from '@/components/AnimatedText'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 
-const rentspace = () => {
+const nba = () => {
   return (
     <>
       <Head>
         <title> Michael | Projects Page </title>
-        <meta name="rentspace" content="project to rent creative spaces" />
+        <meta name="nba" content="nothing by accident" />
       </Head>
       <main>
         <Layout className="pt-16">
@@ -124,7 +124,7 @@ const rentspace = () => {
        </div>
        <div className='col-span-12 flex flex-col items-center space-y-4 mt-32 md:mt-16'>
        <p className='text-gray-500 lg:text-sm sm:text-xs'>Got a project? Tell me about it.</p>
-       <Link href='/'>
+       <Link href="mailto:ojogbomichael@gmail.com" target={"_blank"}>
        <h2 className='text-4xl font-bold hover:text-primary transition md:text-xl'>ojogbomichael@gmail.com</h2>
        </Link>
        </div>
@@ -135,4 +135,4 @@ const rentspace = () => {
   );
 }
 
-export default rentspace
+export default nba

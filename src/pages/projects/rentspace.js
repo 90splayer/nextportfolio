@@ -181,7 +181,7 @@ const rentspace = () => {
        </div>
        <div className='col-span-12 flex flex-col items-center space-y-4 mt-32 md:mt-16'>
        <p className='text-gray-500 lg:text-sm sm:text-xs'>Got a project? Tell me about it.</p>
-       <Link href='/'>
+       <Link href="mailto:ojogbomichael@gmail.com" target={"_blank"}>
        <h2 className='text-4xl font-bold hover:text-primary transition md:text-xl'>ojogbomichael@gmail.com</h2>
        </Link>
        </div>

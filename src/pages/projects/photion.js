@@ -21,19 +21,19 @@ import ReactPlayer from 'react-player'
 import video1 from '../../../public/videos/rentspacevideo.mov'
 import Link from 'next/link'
 
-const rentspace = () => {
+const photion = () => {
   return (
     <>
       <Head>
         <title> Michael | Projects Page </title>
-        <meta name="rentspace" content="project to rent creative spaces" />
+        <meta name="Photion" content="Photo motion" />
       </Head>
       <main>
         <Layout className="pt-16">
         <div className='grid grid-cols-12 mt-4 dark:text-light'>
        <div className='flex flex-col col-span-6 my-4 items-start'>
        <AnimatedText
-            text="Rent Space"
+            text="Photion"
             className="mb-2 !text-4xl !text-left lg:!text-2xl sm:!text-xl xs:!text-xl sm:mb-8"
           />
            <div className='inline-block mr-5'>
@@ -59,7 +59,12 @@ const rentspace = () => {
         <video src={require('../../../public/videos/photion.mov')} autoPlay loop muted />
        </div>
        </div>
-      
+       <div className='col-span-12 flex flex-col items-center space-y-4 mt-32 md:mt-16'>
+       <p className='text-gray-500 lg:text-sm sm:text-xs'>Got a project? Tell me about it.</p>
+       <Link href="mailto:ojogbomichael@gmail.com" target={"_blank"}>
+       <h2 className='text-4xl font-bold hover:text-primary transition md:text-xl'>ojogbomichael@gmail.com</h2>
+       </Link>
+       </div>
       
         </div>
         </Layout>
@@ -68,4 +73,4 @@ const rentspace = () => {
   );
 }
 
-export default rentspace
+export default photion
